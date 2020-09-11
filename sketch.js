@@ -23,7 +23,7 @@ function setup() {
   foodStock.on("value", readStock);
 
   dog = createSprite(800, 200, 150, 150);
-  // dog.scale = 0.4;
+  dog.scale = 0.4;
   dog.addImage(dogIMG)
   // var xpos=200;
   addFood = createButton("Add Food")
